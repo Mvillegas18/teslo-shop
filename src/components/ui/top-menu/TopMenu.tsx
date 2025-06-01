@@ -42,10 +42,16 @@ export const TopMenu = () => {
 
 			{/* Search - cart - menu */}
 			<div className="flex items-center">
-				<Link href="/search" className="mx-2">
+				<Link
+					href="/search"
+					className="mx-2 rounded-md transition-all hover:bg-gray-100 p-2"
+				>
 					<IoSearchOutline className="w-5 h-5" />
 				</Link>
-				<Link href="/cart" className="mx-2">
+				<Link
+					href="/cart"
+					className="mx-2 rounded-md transition-all hover:bg-gray-100 p-2"
+				>
 					<div className="relative">
 						<span className="absolute text-xs rounded-full px-1 font-bold -top-2 bg-blue-700 text-white -right-2">
 							3
@@ -54,7 +60,7 @@ export const TopMenu = () => {
 					</div>
 				</Link>
 
-				<button className="m-2 rounded-md transition-all hover:bg-gray-100">
+				<button className="m-2 rounded-md transition-all hover:bg-gray-100 font-semibold px-3 py-1">
 					Menu
 				</button>
 			</div>
