@@ -4,8 +4,8 @@ interface Props {
 	params: { id: string };
 }
 
-export default function CategoryPage({ params }: Props) {
-	const { id } = params;
+export default async function CategoryPage({ params }: Props) {
+	const { id } = await params;
 	if (id === 'kids') {
 		notFound();
 	}

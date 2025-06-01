@@ -1,6 +1,6 @@
 import { titleFont } from '@/config/fonts';
 import Link from 'next/link';
-import { IoSearchOutline, IoCartOutline } from 'react-icons/io5';
+import { IoCartOutline, IoSearchOutline } from 'react-icons/io5';
 
 export const TopMenu = () => {
 	return (
@@ -43,7 +43,7 @@ export const TopMenu = () => {
 			{/* Search - cart - menu */}
 			<div className="flex items-center">
 				<Link href="/search" className="mx-2">
-					<IoSearchOutline />
+					<IoSearchOutline className="w-5 h-5" />
 				</Link>
 				<Link href="/cart" className="mx-2">
 					<div className="relative">
