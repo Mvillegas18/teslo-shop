@@ -1,7 +1,7 @@
+import { SizeSelector } from '@/components';
 import { titleFont } from '@/config/fonts';
 import { initialData } from '@/seed/seed';
 import { notFound } from 'next/navigation';
-
 interface Props {
 	params: { slug: string };
 }
@@ -32,6 +32,11 @@ export default async function ProductPage({ params }: Props) {
 						currency: 'USD',
 					})}
 				</p>
+
+				<SizeSelector
+					availableSizes={product.sizes}
+					selectedSize={product.sizes[0]}
+				/>
 
 				<button className="btn-primary my-5">Agregar al carrito</button>
 				<h3 className="font-bold text-sm">Descripcion</h3>
