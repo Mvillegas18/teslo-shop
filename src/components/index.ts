@@ -1,5 +1,6 @@
 export * from '@/components/product/quantity-selector/QuantitySelector';
 export * from '@/components/product/size-selector/SizeSelector';
+export * from '@/components/product/slideShow/ProductSlideShow';
 export * from '@/components/products/product-grid/ProductGrid';
 export * from '@/components/products/product-grid/ProductGridItem';
 export * from '@/components/ui//top-menu/TopMenu';
