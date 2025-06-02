@@ -1,4 +1,5 @@
-export * from '@/components/product/side-selector/SideSelector';
+export * from '@/components/product/quantity-selector/QuantitySelector';
+export * from '@/components/product/size-selector/SizeSelector';
 export * from '@/components/products/product-grid/ProductGrid';
 export * from '@/components/products/product-grid/ProductGridItem';
 export * from '@/components/ui//top-menu/TopMenu';
