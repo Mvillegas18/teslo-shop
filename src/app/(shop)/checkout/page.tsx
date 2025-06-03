@@ -106,7 +106,19 @@ export default function CheckoutPage() {
 							</span>
 						</div>
 
-						<div>
+						<div className="mt-5 mb-2 w-full">
+							<p className="mb-5">
+								{/* Disclaimer */}
+								<span className="text-sm text-gray-500">
+									Al confirmar su compra, acepta nuestros{' '}
+									<a
+										href="/#"
+										className="text-blue-500 underline"
+									>
+										términos y condiciones.
+									</a>
+								</span>
+							</p>
 							<Link
 								href={'/orders/123'}
 								className="flex justify-center btn-primary w-full mt-5 transition-colors duration-300"
