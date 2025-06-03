@@ -7,3 +7,4 @@ export * from '@/components/ui//top-menu/TopMenu';
 export * from '@/components/ui/not-found/PageNotFound';
 export * from '@/components/ui/sidebar/Sidebar';
 export * from '@/components/ui/title/Title';
+export * from '@/components/product/slideShow/ProductMobileSlideShow';
